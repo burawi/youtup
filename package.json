@@ -1,0 +1,31 @@
+{
+  "name": "youtup",
+  "version": "0.0.1",
+  "description": "simple nodejs youtube upload",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burawi/youtup.git"
+  },
+  "keywords": [
+    "youtube",
+    "node",
+    "upload",
+    "simple",
+    "server"
+  ],
+  "author": "Abu Rawi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burawi/youtup/issues"
+  },
+  "homepage": "https://github.com/burawi/youtup#readme",
+  "dependencies": {
+    "node-youtube-resumable-upload": "^0.2.1",
+    "object.pick": "^1.2.0",
+    "xoauth2": "^1.2.0"
+  }
+}
